@@ -2,6 +2,7 @@
 Performance/load testing based on [locust](https://locust.io/) 
 
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/BurhanH/automaton-v22/blob/master/LICENSE)
+[![HitCount](http://hits.dwyl.com/BurhanH/Automaton-v22.svg)](http://hits.dwyl.com/BurhanH/Automaton-v22)
 
 ## Requirements
 Python 3.8.\*, locust 1.4.1, <br>
