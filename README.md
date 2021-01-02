@@ -24,7 +24,7 @@ virtualenv (virtual environment manager) <br>
        |-- test-code.png
        |-- charts.png
        |-- statistics.png
-       |-- statistic-2.png
+       |-- statistics-2.png
        |-- workers.png
 ```
 
@@ -35,18 +35,18 @@ virtualenv (virtual environment manager) <br>
 4. Activate virtual environment, move to `automaton-v22` folder, and execute command `pip install -r requirements.txt`
 
 ## How to run performance tests
-1) Open a terminal window
-2) Move to virtual environment folder
-3) Activate virtual environment
-4) Move to `automaton-v22` folder
-5) Execute `locust -f locust-files/test.py`
-6) Go to browser and open [localhost:8089](http://localhost:8089)
-7) Enter necessary info
-8) And hit button Start Swarming
-9) Then observe results in realtime
-10) When testing is done, click Stop button
-11) Collect results and statistics
-12) Shutdown locust via `Ctrl+C` combination in the terminal window
+1. Open a terminal window
+2. Move to virtual environment folder
+3. Activate virtual environment
+4. Move to `automaton-v22` folder
+5. Execute `locust -f locust-files/test.py`
+6. Go to browser and open [localhost:8089](http://localhost:8089)
+7. Enter necessary info
+8. And hit button Start Swarming
+9. Then observe results in realtime
+10. When testing is done, click Stop button
+11. Collect results and statistics
+12. Shutdown locust via `Ctrl+C` combination in the terminal window
 
 Warning! My test project is not for `real` load testing.
 Please use other resources to perform load testing.
