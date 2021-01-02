@@ -41,6 +41,13 @@ virtualenv (virtual environment manager) <br>
 Note! My test project is not for `real` load testing.
 Please use other resources to perform load testing.
 
+## How it looks like
+
+![alt text](/screenshots/test-code.png "Test code") <br>
+![alt text](/screenshots/statistics.png "Statistics") <br>
+![alt text](/screenshots/charts.png "Charts") <br>
+![alt text](/screenshots/statistics-2.png "Statistics 2") <br>
+
 ## Technology stack and helpful info
 [Python 3.8](https://docs.python.org/3.8/) <br>
 [virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/) <br>
