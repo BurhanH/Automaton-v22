@@ -21,10 +21,10 @@ virtualenv (virtual environment manager) <br>
 ```
 
 ## How to prepare environment
-1) Install [Python](https://www.python.org/downloads/)
-2) Install and configure [virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
-3) Clone or copy (download) the repository into your virtual environment
-4) Activate virtual environment, move to `automaton-v22` folder, and execute command `pip install -r requirements.txt`
+1. Install [Python](https://www.python.org/downloads/)
+2. Install and configure [virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
+3. Clone or copy (download) the repository into your virtual environment
+4. Activate virtual environment, move to `automaton-v22` folder, and execute command `pip install -r requirements.txt`
 
 ## How to run performance tests
 1) Open a terminal window
