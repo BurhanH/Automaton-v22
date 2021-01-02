@@ -18,6 +18,14 @@ virtualenv (virtual environment manager) <br>
    |-- requirements.txt
    `-- locust-files
        |-- test.py
+   |-- DockerFile
+   |-- docker-compose.yml
+   `-- screenshots
+       |-- test-code.png
+       |-- charts.png
+       |-- statistics.png
+       |-- statistic-2.png
+       |-- workers.png
 ```
 
 ## How to prepare environment
@@ -40,18 +48,27 @@ virtualenv (virtual environment manager) <br>
 11) Collect results and statistics
 12) Shutdown locust via `Ctrl+C` combination in the terminal window
 
-Note! My test project is not for `real` load testing.
+Warning! My test project is not for `real` load testing.
 Please use other resources to perform load testing.
 
-## How it looks like
+## How to use a swarm of machines (Docker)
+1. Execute command `docker-compose up --build -d` (creates an image)
+2. Create an infrastructure `docker-compose up --scale worker=2` (creates and ups 1 master node and 2 worker instances)
+    Note! Approximately 1 core for 1 worker, depends on your goals
+3. Repeat steps 6-12 from the previous section
+4. Execute command `docker-compose down` (will shutdown the infrastructure)
 
+## How it looks like
 ![alt text](/screenshots/test-code.png "Test code") <br>
 ![alt text](/screenshots/statistics.png "Statistics") <br>
 ![alt text](/screenshots/charts.png "Charts") <br>
 ![alt text](/screenshots/statistics-2.png "Statistics 2") <br>
+![alt text](/screenshots/workers.png "Workers") <br>
 
 ## Technology stack and helpful info
 [Python 3.8](https://docs.python.org/3.8/) <br>
 [virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/) <br>
 [GitHub, cloning repository](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) <br>
-[locust](https://locust.io/) <br>
+[Locust](https://locust.io/) <br>
+[Docker](https://www.docker.com/) <br>
+[Docker Compose](https://docs.docker.com/compose/) <br>
