@@ -42,7 +42,7 @@ Note! My test project is not for `real` load testing.
 Please use other resources to perform load testing.
 
 ## Technology stack and helpful info
-[Python 3.7](https://docs.python.org/3.8/) <br>
+[Python 3.8](https://docs.python.org/3.8/) <br>
 [virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/) <br>
 [GitHub, cloning repository](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) <br>
 [locust](https://locust.io/) <br>
