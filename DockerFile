@@ -1,0 +1,3 @@
+FROM locustio/locust
+ENV TZ=America/Chicago
+COPY locust-files /home/locust/locust-files
