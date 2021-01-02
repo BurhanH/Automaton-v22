@@ -7,7 +7,7 @@ Performance/load testing based on [locust](https://locust.io/)
 
 ## Requirements
 Python 3.8.\*, locust 1.4.1, <br>
-virtualenv (virtual environment manager) <br>
+Virtualenv (virtual environment manager) <br>
 
 ## Project structure
 ```text
@@ -67,7 +67,7 @@ Please use other resources to perform load testing.
 
 ## Technology stack and helpful info
 [Python 3.8](https://docs.python.org/3.8/) <br>
-[virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/) <br>
+[VirtualEnv](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/) <br>
 [GitHub, cloning repository](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) <br>
 [Locust](https://locust.io/) <br>
 [Docker](https://www.docker.com/) <br>
