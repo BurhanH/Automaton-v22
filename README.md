@@ -7,7 +7,8 @@ Performance/load testing based on [locust](https://locust.io/)
 
 ## Requirements
 Python 3.8.\*, locust 1.4.1, <br>
-Virtualenv (virtual environment manager) <br>
+Virtualenv (virtual environment manager), <br>
+Docker <br>
 
 ## Project structure
 ```text
@@ -20,6 +21,7 @@ Virtualenv (virtual environment manager) <br>
        |-- test.py
    |-- DockerFile
    |-- docker-compose.yml
+   |-- run-perf-tests.sh
    `-- screenshots
        |-- test-code.png
        |-- charts.png
@@ -57,6 +59,16 @@ Please use other resources to perform load testing.
    Note! Approximately 1 processor core for 1 worker, depends on your goals.
 3. Repeat steps 6-12 from the previous section
 4. Execute command `docker-compose down` (will shutdown the infrastructure)
+
+## How to use a swarm of machines (shell script for Mac and Linux)
+1. Execute command `./run-perf-tests.sh` or `./run-perf-tests.sh 3` in a terminal window <br>
+2. Go to browser and open [localhost:8089](http://localhost:8089)
+3. Enter necessary info
+4. And hit button Start Swarming
+5. Then observe results in realtime
+6. When testing is done, click Stop button
+7. Collect results and statistics
+8. Shutdown script via `Ctrl+C` combination in the terminal window
 
 ## How it looks like
 ![alt text](/screenshots/test-code.png "Test code") <br>
