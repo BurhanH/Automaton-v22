@@ -8,7 +8,7 @@ Performance/load testing based on [locust](https://locust.io/)
 ## Requirements
 Python 3.8.\*, locust 1.4.1, <br>
 Virtualenv (virtual environment manager), <br>
-Docker <br>
+Docker and PowerShell (optional) <br>
 
 ## Project structure
 ```text
@@ -22,6 +22,7 @@ Docker <br>
    |-- DockerFile
    |-- docker-compose.yml
    |-- run-perf-tests.sh
+   |-- run-perf-tests.ps1
    `-- screenshots
        |-- test-code.png
        |-- charts.png
@@ -61,7 +62,17 @@ Please use other resources to perform load testing.
 4. Execute command `docker-compose down` (will shutdown the infrastructure)
 
 ## How to use a swarm of machines (shell script for Mac and Linux)
-1. Execute command `./run-perf-tests.sh` or `./run-perf-tests.sh 3` in a terminal window <br>
+1. Execute command `./run-perf-tests.sh` or `./run-perf-tests.sh 2` in a terminal window <br>
+2. Go to browser and open [localhost:8089](http://localhost:8089)
+3. Enter necessary info
+4. And hit button Start Swarming
+5. Then observe results in realtime
+6. When testing is done, click Stop button
+7. Collect results and statistics
+8. Shutdown script via `Ctrl+C` combination in the terminal window
+
+## How to use a swarm of machines (PowerShell script for Windows)
+1. Execute command `.\run-perf-tests.ps1` or `.\run-perf-tests.ps1 5` in a terminal window <br>
 2. Go to browser and open [localhost:8089](http://localhost:8089)
 3. Enter necessary info
 4. And hit button Start Swarming
@@ -84,3 +95,4 @@ Please use other resources to perform load testing.
 [Locust](https://locust.io/) <br>
 [Docker](https://www.docker.com/) <br>
 [Docker Compose](https://docs.docker.com/compose/) <br>
+[PowerShell](https://github.com/PowerShell/PowerShell) <br>
