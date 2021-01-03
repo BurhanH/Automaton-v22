@@ -1,4 +1,4 @@
-import random
+from random import SystemRandom
 
 from locust import HttpUser, task
 
@@ -38,6 +38,6 @@ class QuickStart(HttpUser):
         # Trying to get any quote (from 2 to 11) from the end point
         # Note! We exclude quote 1, this scenario covers in the previous task
         self.client.get(
-            url=f'{API_ENDPOINT_PREFIX}/{random.randint(2, 11)}',
+            url=f'{API_ENDPOINT_PREFIX}/{SystemRandom().randint(2, 11)}',
             headers=HEADERS,
         )
