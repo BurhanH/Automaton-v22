@@ -2,7 +2,6 @@
 Performance/load testing based on [locust](https://locust.io/) 
 
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/BurhanH/automaton-v22/blob/master/LICENSE)
-[![HitCount](http://hits.dwyl.com/BurhanH/automaton-v22.svg)](http://hits.dwyl.com/BurhanH/automaton-v22)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/aeacfa13d0854b5a8e24a6feb46e9461)](https://app.codacy.com/gh/BurhanH/Automaton-v22?utm_source=github.com&utm_medium=referral&utm_content=BurhanH/Automaton-v22&utm_campaign=Badge_Grade)
 
 ## Requirements
