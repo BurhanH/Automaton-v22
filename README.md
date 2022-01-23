@@ -5,7 +5,7 @@ Performance/load testing based on [locust](https://locust.io/)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/aeacfa13d0854b5a8e24a6feb46e9461)](https://app.codacy.com/gh/BurhanH/Automaton-v22?utm_source=github.com&utm_medium=referral&utm_content=BurhanH/Automaton-v22&utm_campaign=Badge_Grade)
 
 ## Requirements
-Python 3.8.\*, locust 1.4.1, <br>
+Python 3.8.\*, locust 2.5.1, <br>
 Virtualenv (virtual environment manager), <br>
 Docker and PowerShell (optional) <br>
 
