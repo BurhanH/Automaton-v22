@@ -10,6 +10,6 @@ if ($args[0]) {
     $workers=1
 }
 
-docker-compose up --build -d
+docker-compose build
 docker-compose up --scale worker=$workers
 docker-compose down

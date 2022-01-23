@@ -11,6 +11,6 @@ else
   export WORKERS=$1
 fi
 
-docker-compose up --build -d
+docker-compose build
 docker-compose up --scale worker=${WORKERS}
 docker-compose down
