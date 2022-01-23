@@ -54,7 +54,7 @@ Warning! My test project is not for `real` load testing.
 Please use other resources to perform load testing.
 
 ## How to use a swarm of machines (Docker)
-1. Execute command `docker-compose up --build -d` (creates an image)
+1. Execute command `docker-compose build` (creates an image)
 2. Create an infrastructure `docker-compose up --scale worker=2` (creates and ups 1 master node and 2 worker instances) <br>
    Note! Approximately 1 processor core for 1 worker, depends on your goals.
 3. Repeat steps 6-12 from the previous section
